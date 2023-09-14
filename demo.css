@@ -1,0 +1,12 @@
+
+.container{
+    border: 5px solid black;
+    height: 700px;
+    width: 800px;
+    background-image: image("C:\Users\aj992\OneDrive\Desktop\mar_20Html\images\login background.jpg");
+    
+
+}
+body{
+    background-color: rgb(92, 83, 83);
+}

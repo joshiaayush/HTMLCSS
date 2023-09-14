@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="First">
+        <p>This is first-1 paragraph</p>
+    </div>
+    <div class="First">
+        <p>This is first-2 paragraph</p>
+    </div>
+    <div class="Second">
+        <p>This is second paragraph</p>
+    </div>
+    <div class="Second">
+        <p>This is Third paragraph</p>
+    </div>
+    <button onclick="f()">Onclick</button>
+
+    <script>
+        setTimeout(()=>{
+            console.log('HI')
+        },5000);
+        setTimeout(()=>{
+            console.log('HELLO')
+        },3000);
+        // setTimeout(()=>{
+        //     console.log('Why you are here :( ?')
+        //     document.write('Good Bye!')
+        // },7000);
+        const c = document.getElementsByClassName("First");
+        c[0].style.backgroundColor = "green";
+        const a = document.getElementsByClassName("First");
+        a[1].style.backgroundColor = "red";
+        const d = document.getElementsByClassName("Second");
+        d[0].style.backgroundColor = "green";
+        const b = document.getElementsByClassName("Second");
+        b[1].style.backgroundColor = "red";
+
+        function f(){
+            setTimeout(()=>{
+            console.log('Why you are here :( ?')
+            document.write('Good Bye!')
+        },1000);
+        }
+    </script>
+</body>
+</html>

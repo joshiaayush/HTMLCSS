@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Input array contain some elements
+        var array = [-10, -0.20, 0.30,0.40, -40, -50];
+        
+        // Method (return element > 0)
+        var found = array.find(function (element) {
+        return element > 0;
+        });
+        
+        // Printing desired values
+        console.log(found);
+
+        var find1 = array.filter((a)=>{
+            return a < 0
+        })
+        console.log(find1)
+
+        let ab = array.filter(function(ele){
+            return ele >0
+        })
+        console.log(ab)
+
+
+
+
+
+
+
+
+
+
+
+
+        let adesh = [1,1,1,1,3,4,5]
+
+        
+        const qwe = adesh.filter(function(i){
+            return i > 0
+        })
+        console.log(qwe)
+
+
+        const wer = adesh.filter((i)=>{
+            return i > 0
+        })
+        console.log(wer)
+
+
+
+
+        </script>
+</body>
+</html>

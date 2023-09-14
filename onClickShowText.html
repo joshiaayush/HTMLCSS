@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Click on button to show h1 tag text</p>
+    <button onclick="function1()">Click</button>
+
+    <script>
+        function function1(){
+            var h = document.createElement("H1");
+            var t = document.createTextNode("Hello world");
+            h.appendChild(t);
+            document.body.appendChild(h);
+        }
+    </script>
+</body>
+</html>
